@@ -31,4 +31,7 @@ springdoc:
     path: /api-docs
 auth:
   refresh-token-ttl: 864000000
+
+server:
+  port: 8081
   

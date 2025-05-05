@@ -1,0 +1,34 @@
+#spring.application.name=security-module
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.datasource.username=admin
+#spring.datasource.password=admin
+#spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.show-sql=true
+#jwt.secret=b6c48c4da9e2341ace17be9c0d7f405bf0b9c69b67136374aee5a50007c8fdc80e71597ff69563b3b1ef0ee152fccc4e88c5f68b7f8a365fc45f292478a73b28768a2334ed1982eab75fabf82084fa20c9a202ffba4ab07a5b98cd092d8aa884a7111926ec70eec5bec4bf4d7413c7902aa4846c2c88bba150ecc3f13d0bd5bf452932be3fedebf33df13deb02586b1195f4ba4b777801521d9ce35f941acc2cd2ec5169e60d2059929e976a1603d4bd9549c43f5bc4802c353ee38b20087ebc67099aafb455725189f277412018b0af99870e637feb81032f9801579057022c3e78440ab1ada2aaf7d326250a4e14843212ed485f0ea84ae23661f33750c85d4ee9bc4331a4b986401129122cca4ec5de7cda190ab73c067f5610604e5fd93d57ac59e91e957eb2344c5dc55108f64ebaaeeb247de8ec69f041792abdc20993932dfa4fdec29909e9a6f66ae6153b253b36581794adf9e8f1af7290928d6b511412ea29379fe7fb989362ef77ddabaf292d504a36d5e2cc3283c128290afe7212bcf709190e84bd3ade1eb61c761998e6959c09fe9cfe49a9d76797b89263b54e14bbdfb26b87ea8d5b743598436622347e4d34df67dea868169c7861486b8859b554ce54278356e06c9eac3cfabb65b976190217ad311c4e33f8287061c637df6c705a00595109f302638a8e92eb631ffea99963a5e4036b371e12b901f984
+#auth.refresh-token-ttl=864000000
+#  #  10 days in milliseconds
+#spring.devtools.restart.poll-interval=2s
+#spring.data.redis.host=localhost
+#spring.data.redis.port=6379
+#email-verification.required=true
+#mail.config.password=yeianguniwrqwcnk
+#mail.config.username=bkeldiyarov@yandex.ru
+#mail.config.host=smtp.yandex.ru
+#springdoc.api-docs.enabled=true
+#springdoc.api-docs.path=/api-docs
+#brew services restart postgresql@17
+#redis-server
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: admin
+    password: admin
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+auth:
+  refresh-token-ttl: 864000000
